@@ -1,0 +1,1 @@
+This project is a tribute page for the Toronto Raptors. This page is meant to practise my skills in html and css and responsive design.
