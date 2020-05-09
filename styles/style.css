@@ -2,12 +2,109 @@ body{
     margin: 0;
 }
 
-#title{
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
     margin: 0;
-    background-color: rgb(10, 10, 10);
-    padding: 50vh 0px 50vh 0px;
-    text-align: center;
+    background: linear-gradient(rgba(10,10,10), rgba(10,10,10,.8)), url(../images/raptors-parade-picture-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     font-family: 'Permanent Marker';
+    display: flex;
+    flex-direction: column;
+}
+
+#title{
+    justify-self: center;
+    text-align: center;
     color: rgb(204, 14, 14);
     font-size: 5em;
+    margin: 0;
+}
+
+.subtitle{
+    padding-top: 3vh;
+    margin: 0;
+    align-self: center;
+    font-size: 2.8em;
+    text-align: center;
+    color: white;
+    width: 80vw;
+}
+
+.quotes{
+    display: none;
+    font-size: 1.2vw;
+    width: 16vw;
+    position: absolute;
+    color: rgba(204, 14, 14, .3);
+}
+
+#quote-one{
+    transform: rotate(30deg);
+    left: 80%;
+    bottom: 55%;
+}
+
+#quote-two{
+    transform: rotate(-30deg);
+    left: 2%;
+    bottom: 40%;
+}
+
+#quote-three{
+    transform: rotate(20deg);
+    left: 80%;
+    bottom: 20%;
+    font-size: 1.8vw;
+}
+
+#quote-four{
+    transform: rotate(-15deg);
+    left: 8%;
+    bottom: 20%;
+    font-size: 1.8vw;
+}
+
+#image{
+    padding-top: 4vh;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    align-self: center;
+    width: 80%;
+}
+
+#img-caption{
+    width: 60%;
+    align-self: center;
+    font-size: .8em;
+}
+
+#tribute-content{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    align-self: center;
+    background-color: rgba(204, 14, 14, 0.6);
+    margin-top: 50px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+#tribute-content p{
+    width: 80%;
 }
